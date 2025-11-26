@@ -1,0 +1,36 @@
+ 
+<!DOCTYPE html>
+<html>  
+  <haed>
+    <meta name="viewport" content="width=divice-width,initial-scale=1">
+    <title> To Do Liste Web Site</title>
+    <link href="styl.css"  rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_2" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_2" />
+
+  </haed>
+
+  <body>
+    <div id ="cont"> 
+      <div id="todo">
+          <h2> My To-Do List 🌟 </h2> 
+            <div id="a">
+            <input type="text"  id="input-box"  placeholder="Add a new task... ">
+            <button  id="button" onclick="addTask()" > Add   </button>
+            </div> 
+          <ul id="list-container"></ul>
+
+           <div class="status-section">
+               <h3 id="progressText">Your daily progress will appear here</h3>
+                <div class="progress-bar">
+                <div id="progress"></div>
+               </div>
+            </div>
+    </div>
+    
+    <script src="styl.js"></script>
+  </body>
+</html>
