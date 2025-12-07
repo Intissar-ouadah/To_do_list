@@ -1,2 +1,4 @@
-# To_do_list
-A simple and minimal To-Do List app to add, edit, and organize daily tasks. Built to demonstrate clean UI
+# To_Do_List
+
+A simple and minimal To-Do List website to add, edit, and organize daily tasks.  
+Built to demonstrate a clean and modern UI.
